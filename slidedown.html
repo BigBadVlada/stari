@@ -1,0 +1,33 @@
+ <div id="slideDown">
+
+                <script type = "text/javascript">
+                    $(document).ready(function() {
+                        $(".slidedownDiv").delay(500).slideDown(1000).fadeIn(500);
+                        $("#end").click(function(){
+                            $("#register").hide(1000);
+                        });
+                    });
+                </script>
+
+                <div id="register" class="slidedownDiv">
+
+                    <div id="xbutton">
+                        <button id="end" class="pull-right endbutton btn-primary"><strong>X</strong></button>
+                    </div>
+
+                    <div class="center containerMid">
+
+                        <div class="pull-left"><img src="img/boat-icon-1.jpg" alt="Boat 1"/></div>
+
+                        <div class="pull-right"><img src="img/boat-icon-2.png" alt="Boat 2"/></div>
+
+                        <div class="text-center">
+                            <h4 class="whitetext">WANT TO JOIN OUR FLEET?</h4>
+                            <button type="button" class="btn btnregister"><a class="black" href="http://shadowdev.x3.rs/enrol-boat.php"><strong>REGISTER YOUR BOAT</strong></a></button>
+                        </div>
+
+                     </div>
+
+                 </div>
+
+             </div>
